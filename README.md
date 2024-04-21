@@ -7,8 +7,8 @@ Additionally, __six SSIS packages__ were created for building the data mart, and
 
 ### ETL_Dim_Product : 
 
-In the First load, all records have been inserted into the destination database without passing through `any historization`.
-After the initial load, we refined our Product dimension with __SCD Type 1 and Type 2 techniques__. Now, it accurately reflects changes, ensuring our data mart provides valuable insights for decision-making. 
+- In the First load, all records have been inserted into the destination database without passing through `any historization`.
+- After the initial load, we refined our Product dimension with __SCD Type 1 and Type 2 techniques__. Now, it accurately reflects changes, ensuring our data mart provides valuable insights for decision-making. 
 ![Example](images/Product_Dim_First_Load.PNG)
 ![Example](images/Product_Dim_After_Making_Changes.PNG)
 
@@ -16,7 +16,7 @@ After the initial load, we refined our Product dimension with __SCD Type 1 and T
 ### ETL_Dim_Customer : 
 
 ### ETL_Dim_Territory : 
-As part of the project, a __lookup table__ was developed for ingesting territory data with full country names, enhancing the representation of territory data within the Sales Data Mart 
+- As part of the project, a __lookup table__ was developed for ingesting territory data with full country names, enhancing the representation of territory data within the Sales Data Mart 
 ![Example](images/Territory_Dim.PNG)
 
 
